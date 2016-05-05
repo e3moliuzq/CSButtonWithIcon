@@ -40,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180D59EC1CDAD54400FFF729 /* DefineKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineKey.h; sourceTree = "<group>"; };
 		181811261CD9F505006BAD6C /* CSButtonWithIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSButtonWithIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1818112A1CD9F505006BAD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1818112C1CD9F505006BAD6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,7 +112,6 @@
 		181811281CD9F505006BAD6C /* CSButtonWithIcon */ = {
 			isa = PBXGroup;
 			children = (
-				180D59EC1CDAD54400FFF729 /* DefineKey.h */,
 				181811601CD9F601006BAD6C /* Rec */,
 				1818115C1CD9F539006BAD6C /* ButtonWithIcon */,
 				1818112C1CD9F505006BAD6C /* AppDelegate.h */,

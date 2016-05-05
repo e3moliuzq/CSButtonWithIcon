@@ -7,7 +7,6 @@
 //
 
 #import "ButtonWithIcon.h"
-#import "DefineKey.h"
 
 @implementation ButtonWithIcon
 
@@ -81,11 +80,11 @@
     down_normal_color = [UIColor whiteColor];
     down_highlight_color = [UIColor whiteColor];
     
-    icon_bg_normal_color = SYS_UI_BASE_RED;
-    icon_bg_highlight_color = SYS_UI_BASE_RED_PRESS;
+    icon_bg_normal_color = [UIColor colorWithRed:253.f/255.f green:98.f/255.f blue:82.f/255.f alpha:1];
+    icon_bg_highlight_color = [UIColor colorWithRed:200.f/255.f green:98.f/255.f blue:82.f/255.f alpha:1];
     
     icon_label_normal_color = [UIColor whiteColor];
-    icon_label_highlight_color = SYS_UI_LIGHT_GRAY_COLOR;
+    icon_label_highlight_color = [UIColor lightGrayColor];
     
     [self addTarget:self action:@selector(btnHighlighted) forControlEvents:UIControlEventTouchDown];
     [self addTarget:self action:@selector(btnNormal) forControlEvents:UIControlEventTouchUpInside];
