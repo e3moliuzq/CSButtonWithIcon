@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D5A7C1CDAF89700FFF729 /* ButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D5A7B1CDAF89700FFF729 /* ButtonWithIcon.m */; };
 		1818112B1CD9F505006BAD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818112A1CD9F505006BAD6C /* main.m */; };
 		1818112E1CD9F505006BAD6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818112D1CD9F505006BAD6C /* AppDelegate.m */; };
 		181811311CD9F505006BAD6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181811301CD9F505006BAD6C /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		181811391CD9F505006BAD6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181811371CD9F505006BAD6C /* LaunchScreen.storyboard */; };
 		181811441CD9F505006BAD6C /* CSButtonWithIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181811431CD9F505006BAD6C /* CSButtonWithIconTests.m */; };
 		1818114F1CD9F505006BAD6C /* CSButtonWithIconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818114E1CD9F505006BAD6C /* CSButtonWithIconUITests.m */; };
-		1818115F1CD9F539006BAD6C /* ButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818115E1CD9F539006BAD6C /* ButtonWithIcon.m */; };
 		181811651CD9F601006BAD6C /* command_line_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181811611CD9F601006BAD6C /* command_line_press@2x.png */; };
 		181811661CD9F601006BAD6C /* command_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181811621CD9F601006BAD6C /* command_line@2x.png */; };
 		181811671CD9F601006BAD6C /* geography_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181811631CD9F601006BAD6C /* geography_press@2x.png */; };
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180D5A7A1CDAF89700FFF729 /* ButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWithIcon.h; sourceTree = "<group>"; };
+		180D5A7B1CDAF89700FFF729 /* ButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWithIcon.m; sourceTree = "<group>"; };
 		181811261CD9F505006BAD6C /* CSButtonWithIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSButtonWithIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1818112A1CD9F505006BAD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1818112C1CD9F505006BAD6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,8 +58,6 @@
 		1818114A1CD9F505006BAD6C /* CSButtonWithIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSButtonWithIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1818114E1CD9F505006BAD6C /* CSButtonWithIconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSButtonWithIconUITests.m; sourceTree = "<group>"; };
 		181811501CD9F505006BAD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1818115D1CD9F539006BAD6C /* ButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWithIcon.h; sourceTree = "<group>"; };
-		1818115E1CD9F539006BAD6C /* ButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWithIcon.m; sourceTree = "<group>"; };
 		181811611CD9F601006BAD6C /* command_line_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "command_line_press@2x.png"; sourceTree = "<group>"; };
 		181811621CD9F601006BAD6C /* command_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "command_line@2x.png"; sourceTree = "<group>"; };
 		181811631CD9F601006BAD6C /* geography_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geography_press@2x.png"; sourceTree = "<group>"; };
@@ -89,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180D5A791CDAF89700FFF729 /* ButtonWithIcon */ = {
+			isa = PBXGroup;
+			children = (
+				180D5A7A1CDAF89700FFF729 /* ButtonWithIcon.h */,
+				180D5A7B1CDAF89700FFF729 /* ButtonWithIcon.m */,
+			);
+			path = ButtonWithIcon;
+			sourceTree = SOURCE_ROOT;
+		};
 		1818111D1CD9F505006BAD6C = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +121,8 @@
 		181811281CD9F505006BAD6C /* CSButtonWithIcon */ = {
 			isa = PBXGroup;
 			children = (
+				180D5A791CDAF89700FFF729 /* ButtonWithIcon */,
 				181811601CD9F601006BAD6C /* Rec */,
-				1818115C1CD9F539006BAD6C /* ButtonWithIcon */,
 				1818112C1CD9F505006BAD6C /* AppDelegate.h */,
 				1818112D1CD9F505006BAD6C /* AppDelegate.m */,
 				1818112F1CD9F505006BAD6C /* ViewController.h */,
@@ -151,15 +160,6 @@
 				181811501CD9F505006BAD6C /* Info.plist */,
 			);
 			path = CSButtonWithIconUITests;
-			sourceTree = "<group>";
-		};
-		1818115C1CD9F539006BAD6C /* ButtonWithIcon */ = {
-			isa = PBXGroup;
-			children = (
-				1818115D1CD9F539006BAD6C /* ButtonWithIcon.h */,
-				1818115E1CD9F539006BAD6C /* ButtonWithIcon.m */,
-			);
-			path = ButtonWithIcon;
 			sourceTree = "<group>";
 		};
 		181811601CD9F601006BAD6C /* Rec */ = {
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1818115F1CD9F539006BAD6C /* ButtonWithIcon.m in Sources */,
+				180D5A7C1CDAF89700FFF729 /* ButtonWithIcon.m in Sources */,
 				181811311CD9F505006BAD6C /* ViewController.m in Sources */,
 				1818112E1CD9F505006BAD6C /* AppDelegate.m in Sources */,
 				1818112B1CD9F505006BAD6C /* main.m in Sources */,
