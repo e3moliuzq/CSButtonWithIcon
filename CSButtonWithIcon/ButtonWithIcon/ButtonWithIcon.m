@@ -1,9 +1,9 @@
 //
 //  ButtonWithIcon.m
-//  shjManager
+//  
 //
-//  Created by e3mo on 15/8/25.
-//  Copyright (c) 2015年 times. All rights reserved.
+//  Created by e3mo on 16/4/26.
+//  Copyright (c) 2016年 times. All rights reserved.
 //
 
 #import "ButtonWithIcon.h"

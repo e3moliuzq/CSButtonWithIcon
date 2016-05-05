@@ -26,7 +26,7 @@
 @property (nonatomic, strong) UILabel *iconlabel;
 
 //如果haveLabel=YES,则图片一定是正方形
-- (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel;//默认isCircularBtn=YES
+- (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel;//默认isCircularBtn=YES，YES时角标会全部在图片范围内，NO时角标会有1/4在图片范围内
 - (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel mode:(BOOL)isCircularBtn;
 //一定会有label的情况下，可以定义image的大小
 - (id)initWithFrame:(CGRect)frame imageSize:(CGSize)size;//默认isCircularBtn=YES

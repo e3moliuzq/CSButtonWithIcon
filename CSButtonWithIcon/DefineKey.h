@@ -1,9 +1,9 @@
 //
 //  DefineKey.h
-//  taishan
 //
-//  Created by e3mo on 15/6/25.
-//  Copyright (c) 2015年 times. All rights reserved.
+//
+//  Created by e3mo on 16/4/26.
+//  Copyright (c) 2016年 times. All rights reserved.
 //
 
 #ifndef taishan_DefineKey_h
