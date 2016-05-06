@@ -25,11 +25,13 @@
 @property (nonatomic, strong) UIImageView *baseimage;
 @property (nonatomic, strong) UILabel *iconlabel;
 
-//如果haveLabel=YES,则图片一定是正方形
-- (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel;//默认isCircularBtn=YES，YES时角标会全部在图片范围内，NO时角标会有1/4在图片范围内
+//haveLabel==NO,则只有图片和角标，无文字
+//如果haveLabel==YES,则图片一定是正方形
+- (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel;//默认isCircularBtn==YES，YES时角标会全部在图片范围内，NO时角标会有1/4在图片范围内
 - (id)initWithFrame:(CGRect)frame haveLabel:(BOOL)haveLabel mode:(BOOL)isCircularBtn;
+//以下方法一定有文字
 //一定会有label的情况下，可以定义image的大小
-- (id)initWithFrame:(CGRect)frame imageSize:(CGSize)size;//默认isCircularBtn=YES
+- (id)initWithFrame:(CGRect)frame imageSize:(CGSize)size;//默认isCircularBtn==YES
 - (id)initWithFrame:(CGRect)frame imageSize:(CGSize)size mode:(BOOL)isCircularBtn;
 
 - (void)showIconLabelWithoutText;//显示一个点角标
