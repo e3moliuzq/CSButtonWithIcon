@@ -26,7 +26,7 @@
     ButtonWithIcon *btn0 = [[ButtonWithIcon alloc] initWithFrame:CGRectMake(30, 50, 60, 80) haveLabel:YES];
     btn0.downlabel.text = @"圆角按钮";//label text
     [btn0 setIconLabelText:@"99+"];//icon label text
-    [btn0 setBaseImage:@"geography.png" highlightImage:nil];//set image
+    [btn0 setBaseImage:@"geography.png" highlightImage:@"geography_press.png"];//set image
     [btn0 setDownLabelColor:[UIColor darkGrayColor] highlightColor:[UIColor blackColor]];//set label color
     [btn0 setIconBgColor:[UIColor yellowColor] highlightColor:[UIColor colorWithRed:0.8 green:0.8 blue:0 alpha:1.f]];//set icon bg color
     [btn0 setIconLabelColor:[UIColor darkGrayColor] highlightColor:[UIColor blackColor]];//set icon label color
